@@ -1,0 +1,18 @@
+import matplotlib.pyplot as plt
+
+# Data for the line plot
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 6, 8, 10]
+
+# Create a line plot
+plt.plot(x, y)
+
+# Add labels to the x and y axes
+plt.xlabel('X-Axis Label')
+plt.ylabel('Y-Axis Label')
+
+# Add a title to the plot
+plt.title('Line Plot Example')
+
+# Display the plot
+plt.show()
